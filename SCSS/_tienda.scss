@@ -1,0 +1,62 @@
+
+.accordion-item{
+    header {
+        h3 {
+            @include center-title3();
+    
+        }
+    }
+}
+.container{
+    h3{
+        @include center-title3();
+    }
+}
+.card-action{
+    .btn{
+        background-color: $color-primario-c1;
+    }
+}
+
+h2{
+    .accordion-header{
+        background-color: $color-primario-c1;
+        color: #212529;
+    }
+}
+.accordion-button{
+    background-color: $color-primario-c1;
+    color: #212529;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: $color-primario-c1;
+    color: #212529;
+}
+
+
+
+.card-actions {
+    display: flex; 
+    gap: 0.3em;
+  }
+  
+  .btn {
+    flex: 1;   
+    background-color: $color-primario;
+
+  }
+  
+  #aviso{
+    @include primarios-texto();
+    border-radius: 12px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; 
+    margin-left: 0.5em;
+  }
+
+
+  

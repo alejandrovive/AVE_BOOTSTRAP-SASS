@@ -1,0 +1,24 @@
+// SCSS utilizado para definir las variables de color 
+
+// Colores primarios 
+$color-primario: #C41E3A;
+$color-primario-c1: #d6455e;
+$color-primario-c2: #f07288;
+$color-primario-o1: #9d0e27;
+$color-primario-02: #780015;
+
+// Colores secundarios 
+$color-secundario: #EEEFF3;
+$color-secundario-c1: #ffffff;
+$color-secundario-o1: #cdd1de;
+$color-secundario-02: #a0a6c1;
+
+
+@mixin primarios-texto() {
+    background-color: $color-primario;
+    color: $color-secundario;
+    font-family: $titles;
+    font-family: $text;
+    font-size: $text-size;
+    
+  }

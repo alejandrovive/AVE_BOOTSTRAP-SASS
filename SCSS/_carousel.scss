@@ -1,0 +1,30 @@
+#carouselExampleCaptions.carousel {
+  .carousel-inner {
+    height: 0;
+    padding-bottom: 40%;
+  }
+
+  .carousel-item {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    img {
+      max-width: 100%; // Cambiado a 100% para ajustar automáticamente al ancho del contenedor
+      max-height: 100%; // Cambiado a 100% para ajustar automáticamente al alto del contenedor
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .carousel-caption {
+    background-color: $color-primario-c2; 
+    margin: 0;
+  }
+
+
+
+}
+

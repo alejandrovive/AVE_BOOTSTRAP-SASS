@@ -1,0 +1,51 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "colores";
+@import "texto";
+
+
+#Titulo{
+    h1{
+        @include center-title();
+
+    }
+} 
+.container {
+    header {
+      h1 {
+        @include center-title();
+
+      }
+    }
+  }
+
+    header {
+    h2{
+        @include center-title2();
+    }
+    
+  }
+
+  .card-body {
+    background-color: $color-secundario-02;
+    border-radius: 2px;
+    border: 0.5px solid rgb(5, 45, 76);
+    h3{
+        @include center-title3();
+    }
+  }
+
+  .card-cilistasFamosos{
+    margin-bottom: 1em;
+  }
+  
+
+/*
+.carousel-item 
+{
+    img{
+        max-width: 600px;
+        max-height: 700px;
+    }
+} 
+*/
+

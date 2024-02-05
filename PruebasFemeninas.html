@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-md"> 
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="./Assets/castillaleon-logo-principal.png" alt="Logo">
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pruebas
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="PruebasMasculinas.html">Pruebas masculinas</a></li>
+              <li><a class="dropdown-item" href="PruebasFemeninas.html">Pruebas femeninas </a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="federate.html">Fedérate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tienda.html">Tienda</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+      
+      <section class="container">
+        <header>
+            <h1>Pruebas femeninas</h1>
+            <article>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col-sm-3">Fecha</th>
+                            <th scope="col-sm-3">Nombre de la prueba</th>
+                            <th scope="col-sm-3">Tipo de prueba</th>
+                            <th scope="col-sm-3">Ubicación</th>
+                        </tr>
+                        <tbody id="tabla-PruebasFem">
+                            <script src="Scripts/PruebasFemeninas.js"></script>
+                        </tbody>
+                    </thead>
+                </table>
+            </article>
+        </header>
+      </section>
+      <footer>
+        <header>
+            <h2>Patrocinadores</h2>
+        </header>
+        <div class="row text-center">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="Assets/Patrocinadores/fecyl.png">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="Assets/Patrocinadores/uci.png">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="Assets/Patrocinadores/jcyl.jpg">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="Assets/Patrocinadores/afede.jpg">
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img src="Assets/Patrocinadores/soyvd.jpg">
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>

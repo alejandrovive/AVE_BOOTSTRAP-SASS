@@ -1,0 +1,70 @@
+// SCSS donde tendremos nuestras variables de texto
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+// SCSS donde tendremos nuestras variables de texto
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+// Familia de las variables
+$titles: 'Lato', sans-serif;
+$text: 'Lora', serif;
+
+
+// Tamaño de las variables
+$title1: 2.5em;
+$title2: 2em;
+$title3: 1.5em;
+$text-menu: 1.2em;
+$text-size: 1em;
+
+// Color de las variables
+$text-color: #FFFFFF;
+$text-color2: #C41E3A;
+$text-color3: #000000;
+
+@mixin center-title() {
+  font-size: $title1;
+  text-align: center;
+  font-family: $titles;
+  margin-left: 0.1em;
+  
+}
+
+@mixin center-title2() {
+  font-size: $title2;
+  text-align: center;
+  font-family: $titles;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+@mixin center-title3() {
+  font-size: $title3;
+  text-align: center;
+  font-family: $titles;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+@mixin parrafos(){
+  font-family: $text;
+  font-size: $text-size;
+}
+
+
+/*
+  @mixin text-h3 {
+    font-size: $title3;
+    font-family: $text1;
+    color: $text-color2;
+    margin: 0.5em 0.5em;
+  }
+
+  @mixin text-h1 {
+    margin-top: 1em;
+    font-size: $title1;
+    font-family: $text1;
+    color: $text-color2;
+    margin: 0.5em 0.5em;
+  } */
+
+  

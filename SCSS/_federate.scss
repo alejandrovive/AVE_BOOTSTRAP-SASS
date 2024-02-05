@@ -1,0 +1,39 @@
+@import "texto";
+@import "colores";
+.container {
+    header {
+      h1 {
+        @include center-title();
+
+      }
+    }
+  }
+  .container {
+    header {
+      h2 {
+        @include center-title2();
+
+      }
+    }
+  }
+  .container{
+    form{
+        @include parrafos();
+        margin-bottom: 1em;
+    }
+  }
+ 
+
+  .btn-personalizado{
+    background-color: $color-primario-02 !important;
+    border-radius: 10px;
+    color: $color-secundario;
+    &:active{
+        background-color: $color-secundario;
+        color: $color-primario-02;
+        border: 1px solid $color-secundario-02;
+    }
+
+  }
+
+  

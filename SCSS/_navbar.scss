@@ -1,0 +1,100 @@
+.navbar {
+    background-color: $color-primario;
+    color: $color-secundario;
+    display: flex;
+
+    .navbar-nav {
+        .nav-link.active{
+            color: $color-secundario-02;
+        } 
+    }
+    
+    img {
+        max-width: 75px;
+        max-height: 75px;
+        margin-left: 1em;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+}
+
+.navbar-nav {
+    margin-left: 45%;
+    .nav-link {
+        color: white;
+        transition: background-color 0.3s, color 0.3s;
+        font-size: $text-menu;
+
+        &:hover,
+        &:active {
+            background-color: $color-secundario-c1;
+            color: $color-primario;
+        }
+
+        &.active {
+            &:hover {
+                background-color: $color-secundario-c1;
+                color: $color-secundario-02;
+            }
+        }
+    }
+    .dropdown-menu {
+        text-align: left;
+        background-color: $color-primario;
+        font-family: $text;
+        border-bottom: 1px solid white;
+        margin: 0px;
+        padding: 0px;
+        .dropdown-item{
+            color: $color-secundario-c1;
+            &:hover,
+            &:active {
+                background-color: $color-secundario-c1;
+                color: black;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px ) {
+    .navbar-nav {
+        align-items: center;
+        margin-left: 0;
+        .nav-item {
+            width: 100%;
+            text-align: center;
+
+            .nav-link {
+                &:hover,
+                &:active {
+                    background-color: $color-secundario-c1;
+                    color: $color-primario;
+                    width: 100vw;
+             
+                }
+            }
+            
+            .dropdown-menu {
+                text-align: left;
+                background-color: $color-primario;
+                font-family: $text;
+                border-bottom: 1px solid white;
+                margin: 0px;
+                padding: 0px;
+                .dropdown-item{
+                    color: $color-secundario-c1;
+                    
+                width: 100vw;
+                    &:hover,
+                    &:active {
+                        background-color: $color-secundario-c1;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
+

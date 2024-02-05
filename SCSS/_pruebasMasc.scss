@@ -1,0 +1,17 @@
+@import "texto";
+.container {
+    header {
+      h1 {
+        @include center-title();
+
+      }
+    }
+  }
+
+  table.table-striped{
+    @include parrafos(); 
+
+}
+  
+
+  

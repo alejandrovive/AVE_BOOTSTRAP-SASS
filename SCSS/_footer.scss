@@ -1,0 +1,39 @@
+
+
+
+footer {
+    background-color: $color-secundario-02;
+    margin-top: 2em;
+    /*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+    padding: 1%;
+    */
+    header {
+        h2  {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-family: $titles;
+            justify-content: center;
+            font-size: $title2;
+            margin-bottom: 1em;
+        }
+    }
+    
+    img{
+        max-width: 150px;
+        max-height: 150px;
+        margin: 2em;
+   
+    }
+    
+}
+
+
+
+
+
